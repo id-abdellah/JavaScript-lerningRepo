@@ -1,0 +1,24 @@
+when you type:  
+    console.log("a string "other string"")
+
+this will show error because u set a double quote inside a double quote. the same thing will happen with the single quotes
+
+double quote inside a single quote will make no error, single quote inside a double quote will make no error, the error will show when you set the same type of quotation.
+
+To ignore or escape that use the backslash mark "\"
+the backslash will ignore the next character
+    e.g console.log("strinnnngs \"word\"")
+
+then, if you want to print the backslash, type another backslash before it.
+    e.g console.log("mohamed \\ said")
+
+another use case:
+    console.log("sequences \
+    of \ 
+    strings")
+
+to add new line use \n : 
+    console.log("sequences \n of \n string")
+
+to add indent tab use \t :
+    console.log("\t sequences of string")

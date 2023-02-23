@@ -1,0 +1,14 @@
+There are two limitation on variables names in JavaScript:
+    - The name must contain only letters, digits, or the symboles "$" and "_".
+    - The first character must not be a digit.
+
+When name contains multiple words, cameCase is cammonly used "myVeryLongName".
+
+The dollar sign "$" and the underscore "_" can also be used in names. They are regular symbols, just like letters.
+
+Variables named "apple" and "APPLE" are two different variables
+
+Non-latin letter are allowed but not recommended
+
+There are list of reserved words, which cannot be used as variables names because they are used by the language itself.
+For example: "let", "var", "function".

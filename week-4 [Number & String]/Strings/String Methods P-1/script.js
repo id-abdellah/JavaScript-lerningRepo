@@ -1,7 +1,7 @@
 /*
 String Methods:
         - Access with index
-        - Access with chartAt()
+        - Access with charAt()
         - length
         - trim()
         - toUpperCase()

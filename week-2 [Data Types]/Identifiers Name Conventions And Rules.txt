@@ -2,7 +2,7 @@ There are two limitation on variables names in JavaScript:
     - The name must contain only letters, digits, or the symboles "$" and "_".
     - The first character must not be a digit.
 
-When name contains multiple words, cameCase is cammonly used "myVeryLongName".
+When name contains multiple words, camelCase is cammonly used "myVeryLongName".
 
 The dollar sign "$" and the underscore "_" can also be used in names. They are regular symbols, just like letters.
 

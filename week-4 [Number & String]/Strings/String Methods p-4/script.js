@@ -25,8 +25,8 @@ console.log("")
 // غار هادو وحدة كتحيد المسافات من اللخر ديال السترينغ وحدو و التانية كتحدو من القدام بوحدو trim() بحال ال
 let c = "     Mohamed     ";
 console.log(c)
-console.log(c.trimStart())
-console.log(c.trimEnd())
+console.log(c.trimStart())  //  "Mohamed     "
+console.log(c.trimEnd())    //  "     Mohamed"
 
 console.log("");
 
@@ -50,7 +50,7 @@ console.log(d.padEnd(4, "x"))
 const fullNumber = "3948024852013528";
 const las4Digits = fullNumber.slice(-4);
 const maskNumber = las4Digits.padStart(fullNumber.length, "*");
-console.log(maskNumber);
+console.log(maskNumber);  // Exspected output: **********3528
 
 // another use case
 
@@ -58,7 +58,7 @@ const telNmbr = "0612345678";
 const first2Digits = telNmbr.slice(0, 2);
 const last2Digits = telNmbr.slice(-2);
 console.log(`${first2Digits}${last2Digits.padStart(telNmbr.length - 2, "*")}`);
-
+// expexcted output: 06********78
 
 console.log("");
 console.log("");

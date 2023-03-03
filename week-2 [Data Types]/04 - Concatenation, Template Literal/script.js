@@ -44,7 +44,7 @@ ${z} ${u}`)  // lineBreack without adding [ \n ], just hit enter.
 
 
 
-// use case of ``
+// use case of `` [template literals]
 
 let Titel = "This is card titel";
 let disc = "a description of the card content";

@@ -2,6 +2,7 @@
         Assignment One
 ======================================= */
 
+// u should return True
 console.log(100 == "100");
 console.log(100 != 1000);
 console.log(110 > 100 && 10 < 20);

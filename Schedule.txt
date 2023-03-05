@@ -24,3 +24,14 @@
 	#028 – String Methods Part 2
 	#029 – String Methods Part 3
 	#030 – String Challenge
+
+* Week-5
+	#031 – Comparison Operators
+	#032 – Logical Operators
+	#033 – If Condition
+	#034 – Nested If Condition
+	#035 – Conditional ternary Operator
+	#036 – Nullish Coalescing Operator
+	#037 – If Condition Challenge
+	#038 – Switch Statement
+	#039 – Switch And If Condition Challenge

@@ -20,7 +20,7 @@ console.log(100 + "Dog");  // in this case the + operator will work as "concaten
 /* ====================Substraction=============================== */
 
 
-console.log(100 -60);
+console.log(100 - 60);
 
 console.log(100 - "Dog"); // but in this case of (-) u can't substract a string from a number. The output is "NaN" [ Not a Nubmer ]
 console.log(typeof NaN); // and the type of "NaN" is number

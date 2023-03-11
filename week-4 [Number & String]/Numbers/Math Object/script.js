@@ -1,5 +1,5 @@
 /*
-    Math Objec
+    Math Object
         - round()
         - ceil()
         - floor()

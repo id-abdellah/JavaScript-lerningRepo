@@ -24,6 +24,7 @@ console.log("")
 
 // toFixed is return string.
 // toFixed() is used sets how much of number after the "colone" u want to return
+console.log((42.43334).toFixed())
 console.log((42.83334).toFixed(2))
 console.log((42.84379).toFixed(4))
 

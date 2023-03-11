@@ -32,7 +32,7 @@ console.log("")
 
 
 /* ================== ** ================== */
-// is known
+// known
 console.log(10 ** 6)
 
 console.log("")

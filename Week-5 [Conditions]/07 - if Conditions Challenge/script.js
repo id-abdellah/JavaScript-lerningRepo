@@ -22,7 +22,7 @@ a < 10
         ? console.log("10 to 40")
         : a > 40
             ? console.log("larger than 40")
-            : console.log("Unknown");
+            : console.log("Unknown");  // error اللخرة باش تجنب ال else خاصك دير ال
 
 
 console.log("")
@@ -43,7 +43,7 @@ if (st[st.indexOf("W")].toLowerCase() === "w") {
     console.log("Good")
 }
 
-if (st.length.toString !== "string") {
+if (st.length.toString() !== "string") {
     console.log("Good");
 }
 

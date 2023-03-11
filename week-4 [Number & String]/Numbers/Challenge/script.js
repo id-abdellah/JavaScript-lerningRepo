@@ -23,7 +23,7 @@ console.log(Math.round(d));
 console.log(+((d).toFixed()));
 
 
-// Use Variables b + d To Get This Valus
+// Use Variables b + d To Get This Values
 console.log((parseInt(b) / Math.ceil(d)).toFixed(2)); // 66.67 => String
 
 console.log(Math.round(parseInt(b) / Math.ceil(d))); // 67 => Number

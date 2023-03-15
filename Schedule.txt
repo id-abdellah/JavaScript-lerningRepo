@@ -35,3 +35,8 @@
 	#037 – If Condition Challenge
 	#038 – Switch Statement
 	#039 – Switch And If Condition Challenge
+
+* Week-6
+	#040 - Arrays Big Introduction
+	#041 - Using length with Arrays
+	#042 - Add and remove from array

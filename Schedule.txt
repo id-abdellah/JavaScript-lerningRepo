@@ -40,3 +40,8 @@
 	#040 - Arrays Big Introduction
 	#041 - Using length with Arrays
 	#042 - Add and remove from array
+	#043 – Searching Array
+	#044 – Sorting Array
+	#045 – Slicing Array
+	#046 – Joining Arrays
+	#047 – Array Challenge

@@ -1,5 +1,5 @@
 /*
-    Arrays Methods [Slicing]
+    Arrays Methods [Joining]
 
         - concat(array, array)
 

@@ -11,7 +11,7 @@ String Methods:
 /* ========================= concat() ========================= */
 
 // كضيف سترينغ على سترينغ اخرة concat() ال
-let a = "Hello", b = "myFriends" ;
+let a = "Hello", b = "myFriends";
 console.log(a.concat(" ", b))
 
 console.log("")
@@ -76,6 +76,7 @@ console.log("");
 let text = "Hi There! are you hungry hungry hungry";
 console.log(text)
 console.log(text.replace("hungry", "OK"))
+
 
 // replaceAll()
 // كتبدل السترينغ لي كتعاود كاملة. يعني لتعاودات السترينغ بزاف دالمرات، كتبدلهم كاملين للسترينغ اللول 

@@ -32,7 +32,7 @@ for example:
 
 
 
-// Logical Or نبداو بال
+// * Logical Or نبداو بال
 // و اي قيمة غالطة undefined و الل null اول حاجة هادي كترجع فحالة ال
 let price;
 console.log(`The price is ${price || 200}`);
@@ -49,7 +49,7 @@ console.log("")
 
 
 
-// ?? Nullish coalescing اما بالنسبة لل
+// * ?? Nullish coalescing اما بالنسبة لل
 // ومعندهاش علاقة مع اي قيمة غالطة null و ال undefined كترجع القيمة البديلة غار فحالة ال
 let a;
 console.log(`The price is ${price ?? 200}`);

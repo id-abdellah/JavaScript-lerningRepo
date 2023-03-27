@@ -65,6 +65,7 @@ console.log("")
 
 
 // * For example, we can omit "begin" if we don’t need to do anything at the loop start:
+
 let b = 0; // we have i already declared and assigned
 
 for (; b < 3; b++) { // no need for "begin"
@@ -73,14 +74,18 @@ for (; b < 3; b++) { // no need for "begin"
 console.log("")
 
 
+
 // * We can also remove the "step" part:
+
 let c = 0;
 for (; c < 3;) {
     console.log(c++);
 }
 
 
+
 // * And finally we can remove everything
+
 /*
     for (; ;) {
         repeats without limits

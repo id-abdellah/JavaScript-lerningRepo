@@ -29,9 +29,7 @@ function calculate(firstNumber, secondNumber, operation) {
     document.write(`<div>`);
     if (secondNumber === undefined) {
         document.write(`<p>second number is not found</p>`);
-    } else if (operation === undefined) {
-        document.write(`<p>${firstNumber + secondNumber}</p>`);
-    } else if (operation === 'add' || operation === '+') {
+    } else if (operation === undefined || operation === 'add' || operation === '+') {
         document.write(`<p>${firstNumber + secondNumber}</p>`);
     } else if (
         operation === 'multiply' ||
@@ -46,7 +44,7 @@ function calculate(firstNumber, secondNumber, operation) {
 }
 
 calculate(10);
-calculate(10, 20);
+calculate(10, 40);
 calculate(10, 20, 'add');
 calculate(38, 12, '*');
 calculate(10, 20, '-');

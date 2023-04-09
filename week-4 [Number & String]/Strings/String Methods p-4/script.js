@@ -50,7 +50,7 @@ console.log(d.padEnd(4, "x"))
 const fullNumber = "3948024852013528";
 const las4Digits = fullNumber.slice(-4);
 const maskNumber = las4Digits.padStart(fullNumber.length, "*");
-console.log(maskNumber);  // Exspected output: **********3528
+console.log(maskNumber);  // Expected output: **********3528
 
 // another use case
 

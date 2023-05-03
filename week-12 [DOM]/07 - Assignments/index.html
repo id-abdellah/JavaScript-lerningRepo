@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document title</title>
+    <style>
+        body {
+            background-color: rgba(15, 15, 15, 0.568);
+        }
+
+        /* Currency Section */
+        #currencyChanges form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            margin-block: 20px;
+        }
+
+        #currencyChanges form input {
+            outline: none;
+            height: 20px;
+            width: 200px;
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: none;
+        }
+
+        /* ============ */
+
+        /* Form that Creat elements */
+        #creatsEl {
+            margin: 20px auto;
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .creatsCon {
+            width: 200px;
+            overflow: hidden;
+        }
+
+        .creatsCon input,
+        .creatsCon select {
+            display: block;
+            width: 100%;
+            outline: none;
+            border: none;
+            margin-block: 6px;
+        }
+
+        .results {
+            min-height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+
+        .results .hsm {
+            padding: 10px 20px;
+            background-color: lightblue;
+            border-radius: 8px;
+            align-self: baseline;
+            width: calc(100% / 8);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="pics">
+        <div>
+            <img decoding="async" src="" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+        <div>
+            <img decoding="async" src="#" alt="" />
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="currencyChanges">
+        <form action="">
+            <input type="number" name="dollar" placeholder="USD Dollar" />
+            <div class="result">[0] USD Dollar = [0] Moroccan
+                Dirham</div>
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="one" title="two">Two</div>
+    <div class="two" title="one">One</div>
+
+    <hr>
+
+    <div id="secondPics">
+        <img decoding="async" src="#" alt="One" />
+        <img decoding="async" src="#" />
+        <img decoding="async" src="#" alt="Three" />
+        <img decoding="async" src="#" />
+        <img decoding="async" src="#" />
+    </div>
+
+    <hr>
+
+    <form action="" id="creatsEl">
+        <div class="creatsCon">
+            <input type="number" id="numInp" name="elements" class="input" placeholder="Number Of Elements" />
+            <input type="text" name="texts" id="contentInp" class="input" placeholder="Elements Text" />
+            <select name="type" class="input">
+                <option value="Div">div</option>
+                <option value="Section">section</option>
+            </select>
+            <input type="submit" id="submit" name="create" value="Create" />
+        </div>
+        <div class="results" id="results"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

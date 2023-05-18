@@ -1,0 +1,92 @@
+document.getElementById
+document.getElementsByTageName
+document.getElementsByClasseName
+document.querySelector
+document.querySelectorAll
+
+
+element.innerHTML  & element.innerHTML = "";
+element.textContent  & element.textContent = "",
+element.attributeName = "";
+element.getAttribute [method]
+element.setAttribute [method]
+
+
+element.attributes
+element.hasAttribute
+element.hasAttributes
+element.removeAttribute
+
+
+document.creatElement("")
+document.creatTextNode("")
+document.creatComment("")
+document.creatAttribute("")  => for clalling: element.setAttributeNode()
+element.appendChild(element || String)  &&  document.body.appendChild() => for append el into body
+
+
+element.children
+element.childNodes
+element.firstChild
+element.lastChild
+element.firstElementChild
+element.lastElementChild
+
+
+element.onclick = function () {};
+element.onmouseenter = function () {};
+element.onmouseleave = function () {};
+element.onsubmit = function () {};
+...
+
+
+from[0].onsubmit = function (e) {
+	e.preventDefault()
+}
+=> Stops the behavior of the event
+
+
+
+
+window.onblur = function () {
+	inputEl.click()
+}
+=> in the same way like this
+
+
+classList Object
+	element.classList.
+		- length
+		- contains("className") => T/F
+		- item(index)
+		- add("", "")
+		- remove("", "")
+		- toggle("")
+
+
+style
+	element.style.propertyName = "value"
+cssText
+	element.style.cssText = "propName: value; ...; ...;";
+
+style.removeProperty("propertyName")
+style.setProperty("prpertyName", "value", "priority")
+
+for access to the external stylesheets
+	document.styeSheets[0].cssRules[index].remove/setProperty("")
+
+
+
+before(element || String)
+after(element || String)
+append(element || String)
+prepend(element || String)
+remove() => for remove an element permanently
+
+
+
+element.nextSibling
+element.previousSibling
+elemetn.nextElementSibling
+element.previousElementSibling
+element.parentElement

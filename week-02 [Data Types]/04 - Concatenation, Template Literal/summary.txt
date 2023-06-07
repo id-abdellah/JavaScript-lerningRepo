@@ -1,0 +1,39 @@
+I- Concatenation
+
+Concatenation is used to link between two data. The operator to link in JavaScript languague is (+)
+e.g
+    let a = "myName is"
+    let b = "Mohamed"
+to link these two variables and print them on html page:
+    console.log(a + b)
+
+but, the output wont contain a space between these space "myName isMohamed "
+to make a space u can use [ console.log(a + " " + b) ] or u can add new variable conatain space:
+    console.log(a + c + b) ( c = " " )
+
+or to ignore all of these use:
+    console.log(a, b)
+
+
+
+
+II- Template Literal
+
+we have these variables
+    let x = "we love"
+    let y = "JavaScript"
+    let z = "and"
+    let u = "Programming"
+
+The legacy way to link these vars is:
+    console.log(x + " \"\" " + y + "\n" + z + " " + u)
+    -> /n for linebreak & \"\" for adding "" to print
+
+
+but using ES6 standards and above:
+    console.log(`${x} "" ${y}
+    ${z} ${u}`)
+
+-> by using [ `` ] backtick and [ ${} ] to add variables and conditions
+-> to add double quotes or space u can add them directely
+-> and for lineBreak, just hit enter.

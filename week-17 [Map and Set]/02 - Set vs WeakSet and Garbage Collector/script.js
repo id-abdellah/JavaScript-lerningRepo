@@ -29,6 +29,19 @@
 
 
 /* 
+    1)
+*/
+
+let wkSet = new WeakSet([{ a: 1, b: 2 }, { c: 3, d: 4 }]);
+console.log(wkSet);
+
+
+
+
+console.log("")
+
+
+/* 
     3)
 */
 

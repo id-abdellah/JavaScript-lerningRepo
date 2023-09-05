@@ -8,7 +8,7 @@
 
         for(begin; condition; step) {
 
-            Bloch of code, loop body
+            Block of code, loop body
 
         }
 

@@ -1,0 +1,18 @@
+{
+    "string": "Obito",
+    "number": 2003,
+    "object": {
+        "morocco": "Laayoune",
+        "egypte": "Giza",
+        "Usa": "NYC",
+        "Uk": "London"
+    },
+    "array": [
+        "html",
+        "css",
+        "js",
+        "bootstrap"
+    ],
+    "boolean": true,
+    "null": null
+}

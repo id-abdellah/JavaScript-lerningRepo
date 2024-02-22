@@ -49,8 +49,8 @@ getData2().then(
 
 
 
-// await keyword وكاينة طريقة تالتة كنستخدمو فيها ال
-// promise غترجع function قبل الفانكشن معناها ان هاد ال await ملي كنديرو
+// async keyword وكاينة طريقة تالتة كنستخدمو فيها ال
+// promise غترجع function قبل الفانكشن معناها ان هاد ال async ملي كنديرو
 // وخا مترجعو نتايا حرفيا من داخل الفانكشن promise يعني غترجع
 
 async function getData3() {
